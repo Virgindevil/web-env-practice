@@ -83,9 +83,12 @@ document.getElementById('btn').addEventListener('click', () => {
 
 
 *IV. Запуск локального сервера (вариант A — через встроенный Live Server в VS Code; вариант B — через Node.js)*
+
 •	Вариант A (рекомендованный): Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). Запишите URL и убедитесь, что страница открывается.
+
 •	Вариант B: Инициализируйте npm и установите http-server: 
-*ВАЖНО ДЕЛАТЬ ВСЁ ЧЁТКО ПО ПОРЯДКУ!
+
+**ВАЖНО ДЕЛАТЬ ВСЁ ЧЁТКО ПО ПОРЯДКУ!**
 
 `npm init -y`
 `npm install --save-dev http-server`
