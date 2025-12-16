@@ -91,6 +91,7 @@ document.getElementById('btn').addEventListener('click', () => {
 **ВАЖНО ДЕЛАТЬ ВСЁ ЧЁТКО ПО ПОРЯДКУ!**
 
 `npm init -y`
+
 `npm install --save-dev http-server`
 
 В package.json добавьте скрипт в тело scripts: "start": "http-server ./project -c-1"
