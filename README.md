@@ -87,7 +87,19 @@ document.getElementById('btn').addEventListener('click', () => {
 
 *IV. Запуск локального сервера*
 
-•	Вариант A (рекомендованный): Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). Запишите URL и убедитесь, что страница открывается.
+•	Вариант A (рекомендованный): 
+
+Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). 
+
+Запишите URL и убедитесь, что страница открывается.
+
+Пояснения к работе с VS Code:
+
+1.	Откройте проект в VS Code.
+
+2.	Установите и включите полезные расширения: Live Server, Prettier — Code formatter, ESLint (опционально).
+
+3.	Настройте форматирование (Prettier) как формат по сохранению (Format on Save).
 
 •	Вариант B: Инициализируйте npm и установите http-server: 
 
@@ -105,12 +117,10 @@ document.getElementById('btn').addEventListener('click', () => {
 
 Откройте в браузере http://localhost:8080 (или адрес, указанный в терминале).
 
-Пояснения к работе с VS Code:
-1.	Откройте проект в VS Code.
-2.	Установите и включите полезные расширения: Live Server, Prettier — Code formatter, ESLint (опционально).
-3.	Настройте форматирование (Prettier) как формат по сохранению (Format on Save).
 
-Фиксация результата в Git
+
+*V. Фиксация результата в Git*
+
 1.	Добавьте файлы, сделайте коммит: 
 
 `git add .`
