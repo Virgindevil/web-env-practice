@@ -23,6 +23,7 @@ PS C:\Users\user> npm --version
 C:\Users\user> git --version
 git version 2.52.0.windows.1  )
 
+
 *II.	Настройка Git*
 1.	Настройте глобально имя и email: 
 
