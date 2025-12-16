@@ -4,40 +4,44 @@
 *I.	Установка ПО*
 1.	Установите Visual Studio Code.
 
-2.	Установите Node.js (LTS). После установки выполните в терминале: 
-node --version
+2.	Установите Node.js (LTS). После установки выполните в терминале:
+
+`node --version`
 (в моём случае после сообщения было так:
 C:\Users\user> node --version
 v22.19.0  )
-npm --version
+
+`npm --version`
 (в моём случае после сообщения было так:
 PS C:\Users\user> npm --version
 11.6.4  )
 
-3.	Установите Git. Проверьте: 
-git --version
+4.	Установите Git. Проверьте: 
+
+`git --version`
 (в моём случае после сообщения было так:
 C:\Users\user> git --version
 git version 2.52.0.windows.1  )
 
 *II.	Настройка Git*
 1.	Настройте глобально имя и email: 
-git config --global user.name "Ваше Имя"
-git config --global user.email "email@example.com"
+`git config --global user.name "Ваше Имя"`
+`git config --global user.email "email@example.com"`
 (Это не запрос, так что на эти строки ответов нет )
 
 2.	Создайте папку проекта и инициализируйте репозиторий: 
-mkdir web-env-practice && cd web-env-practice
+`mkdir web-env-practice && cd web-env-practice`
 либо если вы используете PowerShell, то команды надо выполнять по-отдельности
-mkdir web-env-practice
+`mkdir web-env-practice`
 (создаёт папку с названием "web-env-practice")
-cd web-env-practice
+`cd web-env-practice`
 (входит в созданную папку, чтобы дальнейшие действия производились в этой папке)
-git init
+`git init`
 (инициализация репозитория git на локальном компьютере)
 
 *III.	Создание проекта*
 1.	Внутри папки web-env-practice создайте папку project и создайте в ней файлы: 
+
 index.html
 css/style.css
 js/script.js
@@ -75,32 +79,39 @@ document.getElementById('btn').addEventListener('click', () => {
 •	Вариант A (рекомендованный): Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). Запишите URL и убедитесь, что страница открывается.
 •	Вариант B: Инициализируйте npm и установите http-server: 
 *ВАЖНО ДЕЛАТЬ ВСЁ ЧЁТКО ПО ПОРЯДКУ!
-npm init -y
-npm install --save-dev http-server
-В package.json добавьте скрипт в тело scripts: "start": "http-server ./project -c-1"
-o	Запустите: 
-npm run start
-o	Откройте в браузере http://localhost:8080 (или адрес, указанный в терминале).
 
- Работа с VS Code
+`npm init -y`
+`npm install --save-dev http-server`
+
+В package.json добавьте скрипт в тело scripts: "start": "http-server ./project -c-1"
+
+Запустите: 
+
+`npm run start`
+
+Откройте в браузере http://localhost:8080 (или адрес, указанный в терминале).
+
+Пояснения к работе с VS Code:
 1.	Откройте проект в VS Code.
 2.	Установите и включите полезные расширения: Live Server, Prettier — Code formatter, ESLint (опционально).
 3.	Настройте форматирование (Prettier) как формат по сохранению (Format on Save).
 
 Фиксация результата в Git
 1.	Добавьте файлы, сделайте коммит: 
-git add .
-git commit -m "Initial project and environment setup"
+
+`git add .`
+`git commit -m "Initial project and environment setup"`
+
 2.	Создайте удалённый репозиторий на GitHub
 Если вы создаёте репозиторий руками, а не командой, то для того, чтобы связать репозиторий с локального компьютера и на Gitub 
 используете:
-git remote add origin "АДРЕС РЕПОЗИТОРИЯ GITHUB"
+`git remote add origin "АДРЕС РЕПОЗИТОРИЯ GITHUB"`
 
 3. Если нет проблем с файлами (один из репозиториев полностб пустой или они не имеют разных файлов) то, 
 используем:
-git branch -M main
-git push -u origin main
+`git branch -M main`
+`git push -u origin main`
 
 4. если файлы всё же конфликтуют, то используем:
-git pull origin main --allow-unrelated-histories
+`git pull origin main --allow-unrelated-histories`
 после чего файлы на локальном компьютеры поддтянут недостающие файлы из репозитория GitHub после чего можно сделать предыдущие шаг (3) по пушу ветки в GitHub
