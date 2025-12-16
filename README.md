@@ -82,7 +82,7 @@ document.getElementById('btn').addEventListener('click', () => {
 ```
 
 
-*IV. Запуск локального сервера (вариант A — через встроенный Live Server в VS Code; вариант B — через Node.js)*
+*IV. Запуск локального сервера*
 
 •	Вариант A (рекомендованный): Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). Запишите URL и убедитесь, что страница открывается.
 
