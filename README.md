@@ -50,8 +50,11 @@ git version 2.52.0.windows.1  )
 1.	Внутри папки web-env-practice создайте папку project и создайте в ней файлы: 
 
 index.html
+
 css/style.css
+
 js/script.js
+
 (В случае с Windows проще и быстрее руками создать)
 
 2.	Создайте базовый HTML (см. пример ниже) и свяжите style.css и script.js.
