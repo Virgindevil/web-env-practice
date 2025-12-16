@@ -46,8 +46,8 @@ js/script.js
 2.	Создайте базовый HTML (см. пример ниже) и свяжите style.css и script.js.
 
 Пример содержимого index.html:
-
-`<!DOCTYPE html>
+```bash
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
@@ -67,7 +67,8 @@ h1 { color: #2b6cb0; }
 Пример script.js:
 document.getElementById('btn').addEventListener('click', () => {
   alert('Кнопка нажата');
-});`
+});
+```
 
 
 *IV. Запуск локального сервера (вариант A — через встроенный Live Server в VS Code; вариант B — через Node.js)*
