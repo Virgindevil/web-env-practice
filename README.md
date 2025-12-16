@@ -110,6 +110,7 @@ document.getElementById('btn').addEventListener('click', () => {
 1.	Добавьте файлы, сделайте коммит: 
 
 `git add .`
+
 `git commit -m "Initial project and environment setup"`
 
 2.	Создайте удалённый репозиторий на GitHub
@@ -122,6 +123,7 @@ document.getElementById('btn').addEventListener('click', () => {
 используем:
 
 `git branch -M main`
+
 `git push -u origin main`
 
 4. если файлы всё же конфликтуют, то используем:
