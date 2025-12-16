@@ -1,7 +1,7 @@
 # web-env-practice
-**Инструкция:
+**Инструкция:**
 
-*I.	Установка ПО
+*I.	Установка ПО*
 1.	Установите Visual Studio Code.
 
 2.	Установите Node.js (LTS). После установки выполните в терминале: 
@@ -20,7 +20,7 @@ git --version
 C:\Users\user> git --version
 git version 2.52.0.windows.1  )
 
-*II.	Настройка Git
+*II.	Настройка Git*
 1.	Настройте глобально имя и email: 
 git config --global user.name "Ваше Имя"
 git config --global user.email "email@example.com"
@@ -36,7 +36,7 @@ cd web-env-practice
 git init
 (инициализация репозитория git на локальном компьютере)
 
-*III.	Создание проекта
+*III.	Создание проекта*
 1.	Внутри папки web-env-practice создайте папку project и создайте в ней файлы: 
 index.html
 css/style.css
@@ -69,7 +69,7 @@ document.getElementById('btn').addEventListener('click', () => {
 });
 
 
-** IV. Запуск локального сервера (вариант A — через встроенный Live Server в VS Code; вариант B — через Node.js)
+*IV. Запуск локального сервера (вариант A — через встроенный Live Server в VS Code; вариант B — через Node.js)*
 •	Вариант A (рекомендованный): Установите расширение Live Server в VS Code и запустите сервер (клик правой кнопкой по index.html → Open with Live Server). Запишите URL и убедитесь, что страница открывается.
 •	Вариант B: Инициализируйте npm и установите http-server: 
 *ВАЖНО ДЕЛАТЬ ВСЁ ЧЁТКО ПО ПОРЯДКУ!
