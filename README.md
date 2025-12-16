@@ -24,6 +24,7 @@ C:\Users\user> git --version
 git version 2.52.0.windows.1  )
 
 ㅤ
+
 *II.	Настройка Git*
 1.	Настройте глобально имя и email: 
 
@@ -48,6 +49,7 @@ git version 2.52.0.windows.1  )
 (инициализация репозитория git на локальном компьютере)
 
 ㅤ
+
 *III.	Создание проекта*
 1.	Внутри папки web-env-practice создайте папку project и создайте в ней файлы: 
 
@@ -87,6 +89,7 @@ document.getElementById('btn').addEventListener('click', () => {
 ```
 
 ㅤ
+
 *IV. Запуск локального сервера*
 
 •	Вариант A (рекомендованный): 
@@ -121,6 +124,7 @@ document.getElementById('btn').addEventListener('click', () => {
 
 
 ㅤ
+
 *V. Фиксация результата в Git*
 
 1.	Добавьте файлы, сделайте коммит: 
